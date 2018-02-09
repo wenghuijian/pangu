@@ -228,4 +228,6 @@ return [
 
     ],
 
+    /* 是否开启注册 */
+    'open_register' => false,
 ];
