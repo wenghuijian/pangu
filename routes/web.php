@@ -16,7 +16,6 @@ Route::get('/', function () {
 });
 
 // 测试下路由
-
 Route::get('admin', function () {
     return view('admin');
 });
