@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// 测试下路由
 Route::get('admin', function () {
     return view('admin');
 });
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
