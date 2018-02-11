@@ -229,5 +229,5 @@ return [
     ],
 
     /* 是否开启注册 */
-    'open_register' => false,
+    'open_register' => true,
 ];
