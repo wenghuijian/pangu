@@ -229,5 +229,18 @@ return [
     ],
 
     /* 是否开启注册 */
-    'open_register' => true,
+    'open_register' => false,
+
+    /* 用户角色配置数组 */
+    'role_set_array' => [
+        'zadmin'    => [
+            'name'  => '总部管理员',
+            'home'  => '/zadmin'
+        ],
+
+        'eadmin'    => [
+            'name'  => '教务管理员',
+            'home'  => '/eadmin'
+        ]
+    ],
 ];

@@ -20,4 +20,11 @@ Route::get('/', function () {
 Auth::routes();
 
 // 登录后个人主页路由
-Route::get('/home', 'HomeController@index')->name('home');
+// 总部管理员
+Route::get('/zadmin', 'ZadminController@index');
+Route::get('/zadmin/pub_app', 'ZadminController@pub_app');
+Route::get('/zadmin/web_par', 'ZadminController@web_par');
+Route::get('/zadmin/ckard', 'ZadminController@ckard');
+
+// 教务管理员
+Route::get('/eadmin', 'EadminController@index');

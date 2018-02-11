@@ -9,7 +9,6 @@
 
 define('LARAVEL_START', microtime(true));
 
-// 调整首页
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
